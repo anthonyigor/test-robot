@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.9 on win32)" generated="2024-10-25T17:31:58.747702" rpa="false" schemaversion="5">
+<suite id="s1" name="Estrutura" source="C:\projetos\robot-test\estrutura.robot">
+<test id="s1-t1" name="Cenário 1: Teste de abrir navegador" line="16">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-25T17:31:59.085550" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-25T17:31:59.084551" elapsed="2.990704"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-10-25T17:32:02.076255" elapsed="2.154370"/>
+</kw>
+<status status="PASS" start="2024-10-25T17:31:59.083552" elapsed="5.148061"/>
+</test>
+<test id="s1-t2" name="Cenário 2: Teste de abrir site da Globo" line="20">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-25T17:32:04.235611" level="INFO">Opening browser 'chrome' to base url 'https://www.globo.com/'.</msg>
+<arg>https://www.globo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-25T17:32:04.235611" elapsed="9.049317"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-10-25T17:32:13.285930" elapsed="2.227672"/>
+</kw>
+<status status="PASS" start="2024-10-25T17:32:04.233611" elapsed="11.280990"/>
+</test>
+<status status="PASS" start="2024-10-25T17:31:58.749703" elapsed="16.767895"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Estrutura">Estrutura</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
